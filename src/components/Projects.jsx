@@ -12,7 +12,7 @@ const projects = [
     category: 'Web Application',
     github: 'https://github.com/Karthikeyan-k-u/Project-Showcase--WIE-',
     demo: 'https://karthikeyan-k-u.github.io/Project-Showcase--WIE-/',
-    thumbnail: '/thumbnails/portfolio.png',
+    thumbnail: 'thumbnails/portfolio.png',
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const projects = [
     category: 'Web Application',
     github: 'https://github.com/Karthikeyan-k-u/Waste-Collection-Worker-Attendance-Route-Register',
     demo: 'https://waste-worker-attendance-route-register.karthikeyan-k-u-777.workers.dev',
-    thumbnail: '/thumbnails/waste-worker.png',
+    thumbnail: 'thumbnails/waste-worker.png',
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const projects = [
     category: 'Web Application',
     github: 'https://github.com/Karthikeyan-k-u/First-FrontEnd-Project-Mass-Blood-Bank-',
     demo: 'https://mass-blood-bank.pages.dev/',
-    thumbnail: '/thumbnails/blood-bank.png',
+    thumbnail: 'thumbnails/blood-bank.png',
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ const projects = [
     category: 'Productivity',
     github: 'https://github.com/Karthikeyan-k-u/Task-Management-WebTechnology-Unit-1-',
     demo: 'https://karthikeyan-k-u.github.io/Task-Management-WebTechnology-Unit-1-/',
-    thumbnail: '/thumbnails/task-manager.png',
+    thumbnail: 'thumbnails/task-manager.png',
   },
   {
     id: 5,
@@ -56,7 +56,7 @@ const projects = [
     category: 'Utility',
     github: 'https://github.com/Karthikeyan-k-u/Stop-Watch-WebTechnology-Unit-1-',
     demo: 'https://karthikeyan-k-u.github.io/Stop-Watch-WebTechnology-Unit-1-/',
-    thumbnail: '/thumbnails/stopwatch.png',
+    thumbnail: 'thumbnails/stopwatch.png',
   },
 ];
 
@@ -65,8 +65,6 @@ const categories = ['All', ...new Set(projects.map((p) => p.category))];
 function ProjectCard({ project }) {
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageError, setImageError] = useState(false);
-
-  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
   const colorPalette = [
     ['#6c63ff', '#a78bfa'],
@@ -82,7 +80,7 @@ function ProjectCard({ project }) {
       <div className="project-card__thumbnail">
         {!imageError && project.thumbnail ? (
           <img
-            src={base + project.thumbnail}
+            src={project.thumbnail}
             alt={`${project.title} preview`}
             className={`project-card__image ${imageLoaded ? 'project-card__image--loaded' : ''}`}
             onLoad={() => setImageLoaded(true)}
