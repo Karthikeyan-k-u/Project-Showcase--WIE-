@@ -66,6 +66,8 @@ function ProjectCard({ project }) {
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageError, setImageError] = useState(false);
 
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
   const colorPalette = [
     ['#6c63ff', '#a78bfa'],
     ['#f59e0b', '#fbbf24'],
@@ -80,7 +82,7 @@ function ProjectCard({ project }) {
       <div className="project-card__thumbnail">
         {!imageError && project.thumbnail ? (
           <img
-            src={project.thumbnail}
+            src={base + project.thumbnail}
             alt={`${project.title} preview`}
             className={`project-card__image ${imageLoaded ? 'project-card__image--loaded' : ''}`}
             onLoad={() => setImageLoaded(true)}
