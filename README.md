@@ -1,6 +1,8 @@
-# Project Showcase — Karthikeyan K U
+# Project Showcase — WIE
 
-A personal portfolio website showcasing a curated collection of web, academic, and hackathon projects. Built with React 19 and Vite 8.
+A curated project showcase portfolio built with React 19 and Vite 8, featuring a dark theme, gradient orbs, live project thumbnails, category filtering, and a code-block hero visual.
+
+Built for the **Web Intelligence Engineering (WIE)** course — Unit 2.
 
 ## Tech Stack
 
@@ -9,6 +11,15 @@ A personal portfolio website showcasing a curated collection of web, academic, a
 - **react-icons** — Feather icon set
 - **Oxlint** — Rust-based linter
 - **Vanilla CSS** — Custom properties, animations, responsive design
+
+## Features
+
+- Dark-themed responsive UI
+- Gradient orbs and animated entrance effects
+- Filterable project grid with live thumbnails
+- Code-block hero section
+- Category-based project filtering
+- GitHub and live demo links per project
 
 ## Getting Started
 

@@ -10,8 +10,8 @@ const projects = [
       'This very portfolio website — a curated project showcase built with React 19 and Vite 8, featuring a dark theme, gradient orbs, project filtering, live thumbnails, and a code-block hero visual.',
     tags: ['React', 'Vite', 'JavaScript', 'CSS'],
     category: 'Web Application',
-    github: 'https://github.com/Karthikeyan-k-u/project-showcase',
-    demo: 'https://karthikeyan-k-u.github.io/project-showcase/',
+    github: 'https://github.com/Karthikeyan-k-u/Project-Showcase--WIE-',
+    demo: 'https://karthikeyan-k-u.github.io/Project-Showcase--WIE-/',
     thumbnail: '/thumbnails/portfolio.png',
   },
   {
