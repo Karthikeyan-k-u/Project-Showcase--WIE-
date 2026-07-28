@@ -15,7 +15,7 @@ function Footer() {
       <div className="container">
         <div className="footer__content">
           <div className="footer__brand">
-            <span className="footer__logo">&lt;K /&gt;</span>
+            <span className="footer__logo">K U</span>
             <p className="footer__credit">
               Designed and Developed by{' '}
               <strong className="footer__name">Karthikeyan K U</strong>

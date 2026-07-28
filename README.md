@@ -14,12 +14,12 @@ Built for the **Web Intelligence Engineering (WIE)** course — Unit 2.
 
 ## Features
 
-- Dark-themed responsive UI
-- Gradient orbs and animated entrance effects
-- Filterable project grid with live thumbnails
-- Code-block hero section
+- Dark-themed responsive UI with gradient orbs
+- Filterable project grid with live thumbnails (6 projects)
+- Code-block hero visual
 - Category-based project filtering
 - GitHub and live demo links per project
+- Responsive design across all devices
 
 ## Getting Started
 

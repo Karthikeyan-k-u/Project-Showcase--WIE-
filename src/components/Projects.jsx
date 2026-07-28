@@ -12,10 +12,21 @@ const projects = [
     category: 'Web Application',
     github: 'https://github.com/Karthikeyan-k-u/Project-Showcase--WIE-',
     demo: 'https://karthikeyan-k-u.github.io/Project-Showcase--WIE-/',
-    thumbnail: 'thumbnails/portfolio.png',
+    thumbnail: 'thumbnails/showcase.png',
   },
   {
     id: 2,
+    title: 'Personal Portfolio Website',
+    description:
+      'A modern personal portfolio showcasing skills, projects, and contact information — built with React, featuring a dark theme, smooth animations, and responsive design.',
+    tags: ['React', 'JavaScript', 'CSS', 'Responsive'],
+    category: 'Web Application',
+    github: 'https://github.com/Karthikeyan-k-u/Personal-Portfolio--React--',
+    demo: 'https://personal-portfolio---karthikeyan-k-u.pages.dev/',
+    thumbnail: 'thumbnails/portfolio.png',
+  },
+  {
+    id: 3,
     title: 'Waste Worker Route Register',
     description:
       'Offline-ready sanitation worker attendance, route coverage, and complaint tracking system built with Cloudflare Workers and IndexedDB for seamless offline functionality.',
@@ -26,7 +37,7 @@ const projects = [
     thumbnail: 'thumbnails/waste-worker.png',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Mass Blood Bank Website',
     description:
       'A frontend web project that streamlines blood donation and requests, including pages for blood requirements, donor details, events, and contact forms.',
@@ -37,7 +48,7 @@ const projects = [
     thumbnail: 'thumbnails/blood-bank.png',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Task Manager',
     description:
       'A responsive task manager with deadline tracking, live countdowns, overdue notifications, and localStorage persistence. Add, complete, undo, or delete tasks effortlessly.',
@@ -48,7 +59,7 @@ const projects = [
     thumbnail: 'thumbnails/task-manager.png',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Stopwatch Application',
     description:
       'A modern stopwatch with start/stop, reset, and lap-time features. Includes millisecond accuracy, scrollable lap history, glassmorphism styling, and a mobile-friendly interface.',
